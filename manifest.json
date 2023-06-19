@@ -1,0 +1,25 @@
+{
+    "name": "HelloWorld Test",
+    "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+    "organization": "Looker Studio",
+    "organizationUrl": "https://url",
+    "termsOfServiceUrl": "https://url",
+    "supportUrl": "https://url",
+    "packageUrl": "https://url",
+    "privacyPolicyUrl": "https://url",
+    "description": "HelloWorld Test Community Visualization",
+    "devMode": true,
+    "components": [
+        {
+            "id": "tableChart",
+            "name": "Table",
+            "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+            "description": "A simple table chart.",
+            "resource": {
+                "js": "gs://looker_visualizations_sandbox/helloworld/viz-codelab.js",
+                "config": "gs://looker_visualizations_sandbox/helloworld/viz-codelab.json",
+                "css": "gs://looker_visualizations_sandbox/helloworld/viz-codelab.css"
+            }
+        }
+    ]
+}
